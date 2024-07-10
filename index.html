@@ -4,6 +4,13 @@
 <head>
     <link rel="stylesheet" href="style.css" />
     <script href="index.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+        const yearEl = document.querySelector('#year');
+        const year = new Date().getFullYear();
+        yearEl.innerText = year;
+});
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>griffinsterie.com</title>
@@ -11,7 +18,7 @@
 
 <body>
     <header id="welcome">
-        <h1>Welcome to my website</h1>
+        <h1 class="red">Welcome to my website</h1>
     </header>
 
     <figure>
@@ -19,6 +26,9 @@
         <br>
         <figcaption id="caption">This is a laptop</figcaption>
     </figure>
+    <footer>
+        <p>&copy; <span id="year"></span> Website by Griffin Sterie</p>
+    </footer>
 </body>
 
 </html>
