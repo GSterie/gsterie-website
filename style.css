@@ -6,31 +6,31 @@
     font-family: 'Ubuntu Mono','Courier New', Courier, monospace;
 }
 figure{
-    transition: 0.25s;
     margin: 16px 20px;
 }
 /*  ? ID Selectors ?   */
 #welcome{
     margin: -8px;
     background-color: darkslategray;
-    color: #ddcdb3;
     letter-spacing: .125em;
+    color: lightsteelblue;
     text-align: center;
     font-size: 1.5em;
     padding: 2.5px;
     position: sticky;
     top: 0px;
     border: 10px solid #ee7b00;
-    transition: 0.25s;
 }
 #img{
     width: 50vw;
-    transition: 0.25s;
 }
 #caption{
     display: inline-block;
     font-size: 4vw;
-    transition: 0.25s;
+}
+#copy{
+    font-size: 1.5em;
+    font-weight: bold;
 }
 /* ? Class Selectors ? */
 .center{
@@ -40,25 +40,20 @@ figure{
 @media screen and (max-width: 600px){
     #img{
         width: 200px;
-        transition: 0.2s;
     }
     #caption{
         font-size: 20px;
         margin-left: 0;
-        transition: 0.5s;
     }
     #welcome{
         font-size: 1.25em;
-        transition: 0.5s;
     }
     figure{
         margin: 16px;
-        transition: 0.5s;
     }
 }
 @media screen and (min-width: 800px){
     #caption{
         font-size: 40px;
-        transition: 0.5s;
     }
 }
