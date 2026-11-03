@@ -5,29 +5,8 @@
     box-sizing: border-box;
     font-family: 'Ubuntu Mono','Courier New', Courier, monospace;
 }
-figure{
-    margin: 16px 20px;
-}
+
 /*  ? ID Selectors ?   */
-#welcome{
-    margin: -8px;
-    background-color: darkslategray;
-    letter-spacing: .125em;
-    color: lightsteelblue;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 2.5px;
-    position: sticky;
-    top: 0px;
-    border: 10px solid #ee7b00;
-}
-#img{
-    width: 50vw;
-}
-#caption{
-    display: inline-block;
-    font-size: 4vw;
-}
 #copy{
     font-size: 1.5em;
     font-weight: bold;
@@ -37,23 +16,3 @@ figure{
     text-align: center;
 }
 /*  ? Media Queries ?  */
-@media screen and (max-width: 600px){
-    #img{
-        width: 200px;
-    }
-    #caption{
-        font-size: 20px;
-        margin-left: 0;
-    }
-    #welcome{
-        font-size: 1.25em;
-    }
-    figure{
-        margin: 16px;
-    }
-}
-@media screen and (min-width: 800px){
-    #caption{
-        font-size: 40px;
-    }
-}
