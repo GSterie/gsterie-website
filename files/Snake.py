@@ -5,7 +5,6 @@ font = pygame.font.Font(None, 24)
 clock = pygame.time.Clock()
 screen = pygame.display.set_mode((800,600))
 pygame.display.set_caption("Griff's Snake Game")
-pygame.display.set_icon(pygame.image.load(r"C:\Users\griff\Downloads\vsc\python\pygame\Snake\snake.png"))
 
 running = True
 
